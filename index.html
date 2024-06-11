@@ -1,97 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-   <div class="container">
-       <nav class="nav">
-           <div class="logo">
-               <h1>TINY</h1>
-               <h4>MOVIEZ</h4>
-           </div>
-          <div class="menu">
-            <h4 id="menu">Menu</h4>
-            <ul class="lista-menu">
-                <li class="item"><div id="home"></div>Home</li>
-                <li class="item"><div id="polygon"></div>Discover</li>
-                <li class="item"><div id="union"></div>Awards</li>
-                <li class="item"><div id="celebrities"></div>Celebrities</li>
-               
-            </ul>
-          </div>
-          <div class="menu">
-            <h4 id="menu">Libary</h4>
-            <ul class="lista-menu">
-                <li class="item"><div id="recent"></div>Recent</li>
-                <li class="item"><div id="rated"></div>Top Rated</li>
-                <li class="item"><div id="downloaded"></div>Downloaded</li>
-                <li class="item"><div id="playlist"></div>Playlist</li>
-                <li class="item"><div id="watchlist"></div>Watchlist</li>
-                <li class="item"><div id="completed"></div>Completed</li>
-               
-            </ul>
-          </div>
-          <div class="menu">
-            <h4 id="menu">General</h4>
-            <ul class="lista-menu">
-                <li class="item"><div id="settings"></div>Settings</li>
-                <li class="item"><div id="logout"></div>Log Out</li>
-               
-            </ul>
-          </div>
-       </nav>
-       <main class="main">
-           <header class="header">
-               <div class="select">
-                <h3>Movies</h3>
-               </div >
-               <div class="select">
-                <h3>TV Shows</h3>
-               </div>
-               <div class="select">
-                <h3>Anime</h3>
-               </div>
-               <div class="pesquisa">
-                <div id="icon-seach"></div>
-                <input type="text" id="pesquisa" placeholder="Search">
-                <div id="icon-filter"></div>
-               </div>
-           </header>
-           <div class="banner">
-            <div class="img-banner">
-                <div class="content-banner">
-                    <div class="titilo-banner">
-                        <h1>The Crown</h1>
-                    </div>
-                    <div class="btn-banner">
-                        <button id="prev">  </button>
-                        <button id="prox"> </button>
-                    </div>
-                    <div class="watchlist">
-                        <div>
-                            <span>+</span>
-                            <h4>Watchlist</h4>
+    <div class="container">
+        <nav class="nav">
+            <div class="logo">
+                <h1>TINY</h1>
+                <h4>MOVIEZ</h4>
+            </div>
+            <div class="menu">
+                <h4 id="menu">Menu</h4>
+                <ul class="lista-menu">
+                    <li class="item">
+                        <div id="home"></div>Home
+                    </li>
+                    <li class="item">
+                        <div id="polygon"></div>Discover
+                    </li>
+                    <li class="item">
+                        <div id="union"></div>Awards
+                    </li>
+                    <li class="item">
+                        <div id="celebrities"></div>Celebrities
+                    </li>
+
+                </ul>
+            </div>
+            <div class="menu">
+                <h4 id="menu">Libary</h4>
+                <ul class="lista-menu">
+                    <li class="item">
+                        <div id="recent"></div>Recent
+                    </li>
+                    <li class="item">
+                        <div id="rated"></div>Top Rated
+                    </li>
+                    <li class="item">
+                        <div id="downloaded"></div>Downloaded
+                    </li>
+                    <li class="item">
+                        <div id="playlist"></div>Playlist
+                    </li>
+                    <li class="item">
+                        <div id="watchlist"></div>Watchlist
+                    </li>
+                    <li class="item">
+                        <div id="completed"></div>Completed
+                    </li>
+
+                </ul>
+            </div>
+            <div class="menu">
+                <h4 id="menu">General</h4>
+                <ul class="lista-menu">
+                    <li class="item">
+                        <div id="settings"></div>Settings
+                    </li>
+                    <li class="item">
+                        <div id="logout"></div>Log Out
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <main class="main">
+            <header class="header">
+                <div class="select">
+                    <h3>Movies</h3>
+                </div>
+                <div class="select">
+                    <h3>TV Shows</h3>
+                </div>
+                <div class="select">
+                    <h3>Anime</h3>
+                </div>
+                <div class="pesquisa">
+                    <div id="icon-seach"></div>
+                    <input type="text" id="pesquisa" placeholder="Search">
+                    <div id="icon-filter"></div>
+                </div>
+            </header>
+            <div class="banner">
+                <div class="img-banner">
+                    <div class="content-banner">
+                        <div class="titilo-banner">
+                            <h1>The Crown</h1>
                         </div>
-                        <div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                        <div class="btn-banner">
+                            <button id="prev"> </button>
+                            <button id="prox"> </button>
                         </div>
-                        <div>
-                            <h3>Watch now</h3>
+                        <div class="watchlist">
+                            <div class="watch">
+                                <div class="vector"></div>
+                                <h4>Watchlist</h4>
+                            </div>
+                            <div class="cicle-item">
+                                <div id="cicle-1"> </div>
+                                <div class="cicle"> </div>
+                                <div class="cicle"> </div>
+                            </div>
+                            <div class="watch-now">
+                                <h3>Watch now</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-           </div>
-       </main>
-       <aside class="aside">
-        <h1>aside</h1>
-       </aside>
-   </div>
+            <div class="popular-movies">
+                <div class="title-popular-movie">
+                    <h1>Popular on TinyMoviez</h1>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div>
+                            <h2>
+                                Loki
+                            </h2>
+                        </div>
+                        <div class="review">
+
+                        </div>
+                        <div>
+                            <h4>Ep</h4>
+                            <div>Superhero</div>
+                        </div>
+                        <div>
+                            <div> + </div>
+                            <div>
+                                <h3>Watch</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h2>
+                               Chernobyl
+                            </h2>
+                        </div>
+                        <div class="review">
+
+                        </div>
+                        <div>
+                            <h4>Ep</h4>
+                            <div>Mini Series</div>
+                        </div>
+                        <div>
+                            <div> + </div>
+                            <div>
+                                <h3>Watch</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h2>
+                                Ricky and Morty
+                            </h2>
+                        </div>
+                        <div class="review">
+
+                        </div>
+                        <div>
+                            <h4>Ep</h4>
+                            <div>Fantasy</div>
+                        </div>
+                        <div>
+                            <div> + </div>
+                            <div>
+                                <h3>Watch</h3>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+
+            </div>
+        </main>
+        <aside class="aside">
+            <h1>aside</h1>
+        </aside>
+    </div>
 </body>
+
 </html>
