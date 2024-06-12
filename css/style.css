@@ -7,15 +7,21 @@
 
 .container {
     display: grid;
+   
     grid-template-columns: 15% 65% 20%;
 
 
 }
 
+/* body{
+    padding-bottom: 100px;
+
+} */
 /* navbar */
 .nav {
     background-color: #21242d;
-    height: 100vh;
+    height: 100%;
+    
     width: 100%;
     min-width: 200px;
     display: flex;
@@ -180,7 +186,7 @@ li {
 /* heaeder */
 .header {
     width: 100%;
-    height: 7em;
+    height: 6em;
     padding: 40px;
     display: grid;
     grid-template-columns: 20% 20% 20% auto;
@@ -191,7 +197,7 @@ li {
 }
 
 .select {
-    padding: 10px;
+    padding: 4px;
     height: 50px;
     width: 160px;
     margin-left: 20px;
@@ -220,7 +226,7 @@ h3 {
 
     padding: 10px;
     width: 90%;
-    height: 3em;
+    height: 2.6em;
     border-radius: 10px;
     border: none;
     position: relative;
@@ -261,7 +267,7 @@ input {
 
 /* img-banner */
 .banner {
-    height: 400px;
+    height: 360px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -448,17 +454,132 @@ input {
     width: 100%;
     height:40%;
     display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
     flex-direction: column;
 }
 .title-popular-movie{
     width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: 6rem;
+}
+.title-popular-movie>h2{
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 1.8rem;
+    margin-left: 78px;
 }
 .cards{
     display: flex;
     width: 100%;
    height: 100%;
+  
+   margin-top: 20px;
+   align-items: center;
    justify-content: space-around;
 }
+#card-1{
+    background-image:url('/images/Picture\ \(1\).png');
+    background-position: center;
+    background-size: cover;
+    margin-left: -20px;
+    width: 15rem;
+    
+    height: 19rem;
+}
+.title-card-1{
+    width: 100%;
+    height: 11rem;
+    padding: 4px;
+    margin-left: 14px;
+    margin-top: 4px;
+
+}
+.title-card-1>h2{
+    color: aliceblue;
+}
+.review{
+    background-image: url('/images/Review.png');
+    width: 6rem;
+    height: 1.1rem;
+   
+}
+.ep{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.ep>p{
+  color: aliceblue;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.watch-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+}
+.w-item{
+    background-color: #00b9ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 60%;
+   
+    height: 90%;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+#card-2{
+    background-image:url('/images/Picture\ \(5\).png') ;
+    width: 15rem;
+    background-position: center;
+    background-size: cover;
+    height: 19rem;
+  
+}
+#card-3{
+    background-image:url('/images/Picture\ \(2\).png') ;
+    width: 15rem;
+    background-position: center;
+    background-size: cover;
+    height: 19rem;
+}
+.add{
+    width: 26%;
+    border-radius: 20px;
+    margin-top: 6px;
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    color:aliceblue ;
+    justify-content: center;
+    margin-left: 10px;
+    background-color: #4d4f5480;
+}
+.add>p{
+    font-size: 2rem;
+}
+.w-item>h3{
+    color: black;
+}
+.w-item:hover{
+    background-color: #00cabd;
+  
+   cursor: pointer;
+}
+.add:hover{
+    cursor: pointer;
+   background-color: #64666c80;
+}
+
 /* aside */
 .aside {
     height: 100vh;
